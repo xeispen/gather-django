@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'fr^u_0=$(9569v93^u!h15@u*8-#eg+6yth5#_ch8j95fk%0hg'
+SECRET_KEY =
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -208,8 +208,8 @@ STATIC_URL = '/static/'
 
 
 # Facebook configuration
-SOCIAL_AUTH_FACEBOOK_KEY = '192764334879645'
-SOCIAL_AUTH_FACEBOOK_SECRET = '1a7da810ab67ca0487852592d0f1e1a2'
+SOCIAL_AUTH_FACEBOOK_KEY = 
+SOCIAL_AUTH_FACEBOOK_SECRET =
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from facebook. Email is not sent by default, to get it, you must request the email permission:
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email','picture']
