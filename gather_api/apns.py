@@ -6,9 +6,9 @@ from hyper import HTTPConnection
 
 def post(token):
     ALGORITHM = 'ES256'
-    APNS_KEY_ID = '55PG9KBFZ2'
-    APNS_AUTH_KEY = './AuthKey_55PG9KBFZ2.p8'
-    TEAM_ID = '2RHU86WU59'
+    APNS_KEY_ID =
+    APNS_AUTH_KEY =
+    TEAM_ID = 
     BUNDLE_ID = 'com.px.gather'
     path = '/3/device/{0}'.format(token)
 
